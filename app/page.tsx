@@ -1,7 +1,20 @@
+import Hero from "@/components/Hero";
+import Projects from "@/components/CardProjects";
+import Testimonials from "@/components/Testimonials";
+
 const page = () => {
   return (
-    <main className="bg-slate-50 min-h-screen flex items-center justify-center text-black">
-      <h1>Hola, soy Juan Pablo</h1>
+    <main className="bg-zinc-50 flex justify-center flex-col px-6">
+      <Hero />
+      <div className="md:flex md:flex-wrap md:gap-10 md:my-10 lg:justify-center">
+        <Projects />
+      </div>
+      <div className="">
+         <Testimonials />
+      </div>
+       
+    
+     
     </main>
   );
 }
