@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import { dataProjets } from '../data/Data'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
     <>
       {dataProjets.map((project) => (
+          <Link href={project.link} key={project.id}>
         <div key={project.id} className="mb-10">
           <article className="relative group w-95 h-95 md:w-85 md:h-85 lg:w-152.5 lg:h-152.5
            bg-zinc-50 rounded-md flex justify-center items-center mb-8 overflow-hidden cursor-pointer">
@@ -45,7 +47,7 @@ const Projects = () => {
               {project.tecnologias.map((tech) => (
                 <span
                   key={tech}
-                  className="px-3 py-1 rounded-full bg-indigo-400 text-slate-50 text-sm"
+                  className="px-3 py-1 rounded-full bg-zinc-800 text-zinc-50 text-sm"
                 >
                   {tech}
                 </span>
@@ -53,6 +55,7 @@ const Projects = () => {
             </div>
           </article>
         </div>
+        </Link>
       ))}
     </>
   )

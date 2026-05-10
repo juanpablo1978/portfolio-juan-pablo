@@ -8,6 +8,7 @@ import 'yet-another-react-lightbox/styles.css'
 import { useState } from 'react'
 import { IoArrowBack } from 'react-icons/io5'
 import { useRouter } from 'next/navigation'
+import { FiGithub } from 'react-icons/fi'
 
 
 const Page = () => {
@@ -15,14 +16,15 @@ const Page = () => {
   const [lightboxIndex, setLightboxIndex] = useState(0)
   const router = useRouter()
 
-  const project = dataProjets.find((p) => p.id === 1)!
+  const project = dataProjets.find((p) => p.id === 2)!
   
 
   const slides = project.capturas?.map((img) => ({ src: img })) ?? []
 
   return (
     <main className='bg-zinc-50 min-h-screen px-6 py-12 flex flex-col items-start gap-4 lg:px-55'>
-      <nav className="fixed top-0 left-0 p-4 z-50">
+
+      <nav className="fixed top-0 left-0 p-4 z-50 hidden lg:block">
   <button onClick={() => router.back()}>
     <IoArrowBack className='text-[40px] text-zinc-800 hover:text-indigo-500
     cursor-pointer transition-colors duration-300' />
@@ -31,11 +33,15 @@ const Page = () => {
 
       <div className='lg:flex lg:items-center lg:justify-between w-full gap-10 mb-10'>
         <div className='lg:flex lg:flex-col lg:gap-y-7'>
-          <h2 className='text-[35px] lg:text-[60px] text-zinc-800 font-normal'>Aikodev</h2>
+          <h2 className='text-[35px] lg:text-[60px] text-zinc-800 font-normal'>Ghibli Api</h2>
 
-          <a href="https://aikodev.com" target="_blank" className="flex items-center gap-2 text-zinc-500 hover:text-indigo-500 transition-colors duration-300 text-[22px]">
+          <a href="https://ghibliapi.aikodev.com/" target="_blank" className="flex items-center gap-2 text-zinc-500 hover:text-indigo-500 transition-colors duration-300 text-[22px]">
             <FiExternalLink />
             <span>Ver sitio</span>
+          </a>
+          <a href="https://github.com/Aikodev-labs/Ghibli-API-platform" target="_blank" className="flex items-center gap-2 text-zinc-500 hover:text-indigo-500 transition-colors duration-300 text-[22px]">
+            <FiGithub />
+            <span>Ver repositorio</span>
           </a>
 
           <div
@@ -60,7 +66,7 @@ const Page = () => {
         </div>
 
         <Image
-          src="/images/hero-aiko.png"
+          src="/images/ghibli-hero.png"
           alt=""
           width={800}
           height={800}
@@ -68,11 +74,16 @@ const Page = () => {
         />
       </div>
 
-      <p className='mt-10 mb-4 text-20px text-zinc-700 lg:px-90 lg:text-[22px]'>
-        Aiko es una academia digital de programación que forma desarrolladores desde cero con un enfoque práctico y comunitario. La plataforma permite codear en tiempo real junto a profesores y compañeros, con clases grabadas y comisiones reducidas para un acompañamiento personalizado.
-      </p>
-      <p className='mb-10 text-20px text-zinc-700 lg:px-90 lg:text-[22px] lg:mb-25'>
-        Formé parte del equipo de desarrollo frontend, colaborando en el desarrollo de la interfaz y trabajando junto a diseñadores para mantener la coherencia visual de la plataforma.
+     
+      <p className='mb-10 text-20px text-zinc-700 lg:px-90 lg:text-[22px] lg:my-25'>
+       El proyecto
+GHIBLI API con información de películas y personajes del Studio Ghibli, construida sobre una API archivada preexistente.
+Mi rol
+Frontend Developer · UI Design — maquetación de la interfaz y diseño colaborativo con el equipo de Aikodev.
+Stack
+React · Node.js · Express · MongoDB · Tailwind
+El desafío
+Diseñar una interfaz accesible y visualmente coherente con el universo Ghibli, consumiendo datos de una API propia.
       </p>
 
       {/* Mobile - carrusel */}
