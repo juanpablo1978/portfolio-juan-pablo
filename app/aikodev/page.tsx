@@ -22,13 +22,7 @@ const Page = () => {
 
   return (
     <main className='bg-zinc-50 min-h-screen px-6 py-12 flex flex-col items-start gap-4 lg:px-55'>
-      <nav className="fixed top-0 left-0 p-4 z-50">
-  <button onClick={() => router.back()}>
-    <IoArrowBack className='text-[40px] text-zinc-800 hover:text-indigo-500
-    cursor-pointer transition-colors duration-300' />
-  </button>
-</nav>
-
+   
       <div className='lg:flex lg:items-center lg:justify-between w-full gap-10 mb-10'>
         <div className='lg:flex lg:flex-col lg:gap-y-7'>
           <h2 className='text-[35px] lg:text-[60px] text-zinc-800 font-normal'>Aikodev</h2>
