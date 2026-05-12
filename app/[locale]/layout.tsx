@@ -1,9 +1,10 @@
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -15,19 +16,25 @@ export const metadata: Metadata = {
   description: "Mi portfolio personal",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params
 }: {
   children: React.ReactNode;
+  params: Promise<{locale: string}>;
 }) {
+  const {locale} = await params;
+  const messages = await getMessages();
+
   return (
-    <html lang="es">
+    <html lang={locale}>
       <body className={dmSans.className}>
-        <Header />
-        {children}
-        <Footer />
+        <NextIntlClientProvider messages={messages}>
+          <Header />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
 }
-

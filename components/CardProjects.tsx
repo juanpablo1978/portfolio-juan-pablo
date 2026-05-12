@@ -12,7 +12,7 @@ const Projects = () => {
            bg-zinc-50 rounded-md flex justify-center items-center mb-8 overflow-hidden cursor-pointer">
             
             {/* Gradiente - visible en reposo, invisible en hover */}
-            <div className="absolute inset-0 bg-linear-to-b from-zinc-300 to-black/35 opacity-100 group-hover:opacity-0 transition-opacity duration-300 rounded-md" />
+            <div className="absolute inset-0 bg-linear-to-b from-mauve-500 to-black/20 opacity-100 group-hover:opacity-0 transition-opacity duration-300 rounded-md" />
 
             {/* Grilla - invisible en reposo, visible en hover */}
             <div

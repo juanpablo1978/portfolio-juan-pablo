@@ -9,9 +9,8 @@ const page = () => {
       <div className="md:flex md:flex-wrap md:gap-10 md:my-10 lg:justify-center">
         <Projects />
       </div>
-      <div className="">
          <Testimonials />
-      </div>
+      
        
     
      

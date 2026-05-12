@@ -1,0 +1,34 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Sobre mim",
+    "curriculum": "Currículo"
+  },
+  "hero": {
+    "greeting": "Olá, sou Juan Pablo.",
+    "role": "Frontend Developer · UI Focus",
+    "description": "Do design no Figma ao componente pronto para integrar.",
+    "quote": "\"Um dos nossos desenvolvedores frontend com mais tempo na Aiko\"",
+    "quoteAuthor": "— Aikodev"
+  },
+    "about": {
+    "title": "Sobre mim",
+    "bio": "Desde que escrevi minhas primeiras linhas de HTML e CSS ficou claro que o visual era minha praia — os detalhes, o espaço, as cores, o contraste. No entanto, como muitos desenvolvedores, segui o caminho natural em direção ao código até que em algum momento parei e me perguntei por que não me dedicar de vez ao que realmente me apaixona.\nHoje me defino como Frontend Developer com foco em UI — projeto interfaces no Figma e as levo ao código com atenção obsessiva aos detalhes e fidelidade ao pixel perfect. Me importa que o que aparece na tela seja exatamente o que foi pensado. Nem mais, nem menos.",
+    "education": "Educação",
+    "experience": "Experiência",
+    "experienceRole": "Desenvolvedor Frontend - Designer UX/UI"
+  },
+  "aikodev": {
+  "title": "Aikodev",
+  "verSitio": "Ver site",
+  "descripcion1": "Aiko é uma academia digital de programação que forma desenvolvedores do zero com uma abordagem prática e comunitária. A plataforma permite codificar em tempo real junto com professores e colegas, com aulas gravadas e turmas reduzidas para um acompanhamento personalizado.",
+  "descripcion2": "Fiz parte da equipe de desenvolvimento frontend, colaborando no desenvolvimento da interface e trabalhando junto a designers para manter a coerência visual da plataforma."
+},
+"ghibli": {
+  "title": "Ghibli Api",
+  "verSitio": "Ver site",
+  "verRepo": "Ver repositório",
+  "descripcion": "O projeto\nGHIBLI API com informações de filmes e personagens do Studio Ghibli, construída sobre uma API arquivada preexistente.\nMeu papel\nFrontend Developer · UI Design — maquetação da interface e design colaborativo com a equipe da Aikodev.\nStack\nReact · Node.js · Express · MongoDB · Tailwind\nO desafio\nProjetar uma interface acessível e visualmente coerente com o universo Ghibli, consumindo dados de uma API própria."
+}
+
+}
