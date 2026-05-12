@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-zinc-50 flex items-center justify-between text-zinc-800 w-full lg:px-55
     h-20 px-6">
       <span className="font-extrabold text-[43px] lg:text-[48px]">
-         <Link href="/">JP</Link>
+         <Link href="/">JP.</Link>
       </span>
       <button className="cursor-pointer lg:hidden">
         <IoIosMenu className="text-[32px] text-zinc-800"/>
