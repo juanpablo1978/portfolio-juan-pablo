@@ -12,7 +12,7 @@ interface Proyecto {
 export const dataProjets: Proyecto[] = [
   {
     id: 1,
-    title: "Aikodev Web (Aikodev)",
+    title: "Aikodev Web",
     image: "/images/aiko-front.png",
     tecnologias: ["Next.js", "Tailwind", "Typescript", "Figma"],
     roles:  ["Frontend Developer"],
@@ -27,7 +27,7 @@ export const dataProjets: Proyecto[] = [
   },
   {
     id: 2,
-    title: "Ghibli Api (Aikodev)",
+    title: "Ghibli Api",
     tecnologias: ["React", "Storybook", "Tailwind", "Figma"],
     image: "/images/mi-vecino.png",
     roles:  ["Frontend Developer", "UI Designer"],
@@ -47,7 +47,7 @@ export const dataProjets: Proyecto[] = [
     tecnologias: ["Next.js", "Tailwind", "Typescript", "Figma"],
     image: "/images/nowa-ok.png",
     roles:  ["Frontend Developer", "UI Designer"],
-        link: "/novapolonia"
+        link: "/nowaPolonia"
   },
    {
     id: 4,

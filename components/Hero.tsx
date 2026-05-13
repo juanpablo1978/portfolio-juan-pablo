@@ -11,14 +11,7 @@ const Hero = () => {
       <h2 className='font-extrabold text-[36px] py-4 lg:text-[60px] text-zinc-800'>{t('greeting')}</h2>
       <p className='font-light text-[20px] lg:text-[24px] text-zinc-600 leading-8 lg:leading-10 lg:mb-10 whitespace-pre-line'>
         {`${t('role')}\n${t('description')}\n${t('quote')}`}
-        <a 
-          href="https://www.instagram.com/p/C85dYVmx-ky/?img_index=1"
-          target="_blank"
-          rel="noopener noreferrer"
-          className='text-zinc-800 text-[25px] cursor-pointer'
-        >
-          {t('quoteAuthor')}
-        </a>
+      
       </p>
     </section>
   )

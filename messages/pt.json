@@ -8,7 +8,7 @@
     "greeting": "Olá, sou Juan Pablo.",
     "role": "Frontend Developer · UI Focus",
     "description": "Do design no Figma ao componente pronto para integrar.",
-    "quote": "\"Um dos nossos desenvolvedores frontend com mais tempo na Aiko\"",
+    "quote": "4 anos de experiência · Disponível para projetos remotos",
     "quoteAuthor": "— Aikodev"
   },
     "about": {
@@ -29,6 +29,12 @@
   "verSitio": "Ver site",
   "verRepo": "Ver repositório",
   "descripcion": "O projeto\nGHIBLI API com informações de filmes e personagens do Studio Ghibli, construída sobre uma API arquivada preexistente.\nMeu papel\nFrontend Developer · UI Design — maquetação da interface e design colaborativo com a equipe da Aikodev.\nStack\nReact · Node.js · Express · MongoDB · Tailwind\nO desafio\nProjetar uma interface acessível e visualmente coerente com o universo Ghibli, consumindo dados de uma API própria."
+},
+"testimonials": {
+  "quote1": "\"Nos deixa muito felizes trabalhar com pessoas que têm tanta dedicação, responsabilidade e talento.\"",
+  "author1": "Aikodev",
+  "quote2":"Trabalhei com Juan Pablo e ele sempre se destacou pelo seu comprometimento, sua atenção aos detalhes e sua capacidade de aprender e se reinventar.",
+  "author2": "Cecilia Cistari, Designer"
 }
 
 }
