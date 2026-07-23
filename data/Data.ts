@@ -47,7 +47,17 @@ export const dataProjets: Proyecto[] = [
     tecnologias: ["Next.js", "Tailwind", "Typescript", "Figma"],
     image: "/images/nowa-ok.png",
     roles:  ["Frontend Developer", "UI Designer"],
-        link: "/nowaPolonia"
+        link: "/nowaPolonia",
+                    capturas: [
+    '/images/hero-nowa.png',
+    '/images/home-nowa.png',
+    '/images/about-nowa.png',
+     '/images/actividades-nowa.png',
+    '/images/modal-nowa.png',
+    '/images/agenda-nowa.png',
+    '/images/galeria-nowa.png',
+    
+  ]
   },
    {
     id: 4,

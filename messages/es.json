@@ -30,6 +30,14 @@
   "verRepo": "Ver repositorio",
   "descripcion": "El proyecto\nGHIBLI API con información de películas y personajes del Studio Ghibli, construida sobre una API archivada preexistente.\nMi rol\nFrontend Developer · UI Design — maquetación de la interfaz y diseño colaborativo con el equipo de Aikodev.\nStack\nReact · Node.js · Express · MongoDB · Tailwind\nEl desafío\nDiseñar una interfaz accesible y visualmente coherente con el universo Ghibli, consumiendo datos de una API propia."
 },
+"nowaPolonia": {
+  "title": "Nowa Polonia",
+  "verSitio": "Ver sitio",
+  "verRepo": "Ver repositorio",
+  "verFigma": "Ver Figma",
+  "descripcion": "Landing institucional para la Asociación Civil Nueva Polonia, con sede en Córdoba, Argentina. El sitio presenta con secciones de bienvenida, agenda de eventos, historia institucional, actividades y servicios, galería fotográfica y contacto.\nEl desafío principal fue lograr una estética sobria y ordenada que no compitiera con la riqueza visual y colorida de las fotografías de danza y eventos.",
+  "rol": "Diseño UI en Figma y desarrollo frontend completo como proyecto freelance independiente."
+},
 "testimonials": {
   "quote1": "\"Nos pone muy felices trabajar con personas que tienen tanta dedicación, responsabilidad y talento.\"",
   "author1": "Aikodev",

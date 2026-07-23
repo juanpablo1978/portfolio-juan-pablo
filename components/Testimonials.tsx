@@ -17,7 +17,7 @@ const Testimonials = () => {
           rel="noopener noreferrer"
           className='text-zinc-800 text-[25px] cursor-pointer hover:text-indigo-500'
         >
-          <span className='flex items-center gap-x-3 mt-5'>{t('author1')} <FiExternalLink/></span>
+          <span className='flex items-center gap-x-3 mt-5'><FiExternalLink/> {t('author1')} </span>
         </a>
       </article>
       <article className="bg-zinc-50 lg:w-140 lg:h-60 border border-zinc-400 md:w-85 md:h-60
